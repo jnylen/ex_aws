@@ -19,6 +19,7 @@
         "ap-southeast-2" => %{"description" => "Asia Pacific (Sydney)"},
         "ca-central-1" => %{"description" => "Canada (Central)"},
         "eu-central-1" => %{"description" => "EU (Frankfurt)"},
+        "eu-central-003" => %{"description" => "EU Central (Backblazeb2)"},
         "eu-west-1" => %{"description" => "EU (Ireland)"},
         "eu-west-2" => %{"description" => "EU (London)"},
         "eu-west-3" => %{"description" => "EU (Paris)"},
@@ -120,6 +121,7 @@
             "ap-southeast-2" => %{},
             "ca-central-1" => %{},
             "eu-central-1" => %{},
+            "eu-central-003" => %{},
             "eu-west-1" => %{},
             "eu-west-2" => %{},
             "eu-west-3" => %{},
@@ -1258,6 +1260,10 @@
             },
             "ca-central-1" => %{},
             "eu-central-1" => %{},
+            "eu-central-003" => %{
+              "hostname" => "s3.eu-central-003.backblazeb2.com",
+              "signatureVersions" => ["s3", "s3v4"]
+            }
             "eu-west-1" => %{
               "hostname" => "s3.eu-west-1.amazonaws.com",
               "signatureVersions" => ["s3", "s3v4"]

@@ -1263,7 +1263,7 @@
             "eu-central-003" => %{
               "hostname" => "s3.eu-central-003.backblazeb2.com",
               "signatureVersions" => ["s3", "s3v4"]
-            }
+            },
             "eu-west-1" => %{
               "hostname" => "s3.eu-west-1.amazonaws.com",
               "signatureVersions" => ["s3", "s3v4"]
